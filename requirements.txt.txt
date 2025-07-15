@@ -1,0 +1,5 @@
+streamlit==1.x.x # Use the version you developed with
+yfinance==0.2.x # Use the version you developed with
+pandas==2.x.x
+numpy==1.2x.x
+plotly==5.x.x
