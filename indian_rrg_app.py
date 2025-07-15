@@ -37,9 +37,9 @@ TABLE_BG_COLORS = {
 # --- NEW: Define a dictionary for the available datasets ---
 # Use raw strings (r"...") to handle backslashes in Windows paths correctly.
 DATASET_PATHS = {
-    "Nifty MidSmallCap 400": r"C:\Users\FAHAD\Downloads\stock market file\ind_niftymidsmallcap400list.csv",
-    "Nifty 500 Momentum 50": r"C:\Users\FAHAD\Downloads\stock market file\ind_nifty500Momentum50_list.csv",
-    "Nifty SmallCap 250": r"C:\Users\FAHAD\Downloads\stock market file\ind_niftysmallcap250list.csv"
+    "Nifty MidSmallCap 400": "data/ind_niftymidsmallcap400list.csv",
+    "Nifty 500 Momentum 50": "data/ind_nifty500Momentum50_list.csv",
+    "Nifty SmallCap 250": "data/ind_niftysmallcap250list.csv"
 }
 
 @st.cache_data
